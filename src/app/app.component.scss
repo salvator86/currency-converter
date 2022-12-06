@@ -1,0 +1,8 @@
+.page {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  app-exchange {
+    flex: 1 1 auto;
+  }
+}

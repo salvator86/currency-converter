@@ -1,0 +1,19 @@
+<form [formGroup]="form" *ngIf="currency">
+  <div class="input-block">
+    <input type="number" formControlName="inputValue" (input)="convertOutput(form.value)">
+    <select formControlName="inputCurrency" (change)="convertOutput(form.value)">
+      <option value="UAN">UAN</option>
+      <option value="USD">USD</option>
+      <option value="EUR">EUR</option>
+    </select>
+  </div>
+  <div class="input-block">
+    <input type="number" formControlName="outputValue" (input)="convertInput(form.value)">
+    <select formControlName="outputCurrency" (change)="convertOutput(form.value)">
+      <option value="UAN">UAN</option>
+      <option value="USD">USD</option>
+      <option value="EUR">EUR</option>
+    </select>
+  </div>
+</form>
+

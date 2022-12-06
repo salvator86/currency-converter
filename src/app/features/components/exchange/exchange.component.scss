@@ -1,0 +1,24 @@
+.main-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  margin: 50px auto;
+}
+.exchange-block {
+  padding: 40px 50px;
+  background-color: #5c6c88;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  &_title {
+    display: block;
+    margin: 0 auto;
+    font-size: 24px;
+    color: #fff;
+  }
+}

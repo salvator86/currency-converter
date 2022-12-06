@@ -1,0 +1,11 @@
+<header class="header">
+  <div class="_container">
+    <div class="header-items">
+      <h1 class="logo">{{titleHeader}}</h1>
+      <span class="exchange-rate" *ngIf="currency">
+        <span>EUR: {{currency['EUR to UAN']}}</span>
+        <span>USD: {{currency['USD to UAN']}}</span>
+      </span>
+    </div>
+  </div>
+</header>

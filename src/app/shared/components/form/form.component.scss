@@ -1,0 +1,43 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.input-block {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+input {
+  font-size: 20px;
+  width: 150px;
+  height: 35px;
+  padding-left: 10px;
+  border: none;
+  box-sizing: border-box;
+  &:focus {
+    outline: none;
+  }
+}
+select {
+  position: relative;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 6px 0 7px 10px;
+  margin: 0;
+  width: 100px;
+  height: 35px;
+  font-family: inherit;
+  font-size: 20px;
+  cursor: inherit;
+  line-height: 25px;
+  &:focus {
+    outline: none;
+  }
+  option {
+    background-color: white;
+    color: #000;
+  }
+}
+
